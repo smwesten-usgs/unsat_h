@@ -44,9 +44,9 @@ The files in this repo include:
 | bin/bsum300.exe | Executable version of BSUM300 (Windows console program) |
 | bin/din300.exe | Executable version of DATAINH (Windows console program) |
 | bin/dout300.exe - Executable version of DATAOUT (Windows console program) |
-| src/uns300.f - Main program UNSATH |
-| src/din300.f - The input-processing program DATAINH |
-| src/bsum300.f - Program that summarizes multiyear simulation output |
+| src/uns300.f | Main program UNSATH |
+| src/din300.f | The input-processing program DATAINH |
+| src/bsum300.f | Program that summarizes multiyear simulation output |
 | src/dout300.f | The output-processing program DATAOUT |
 | include/init.inc | Include file needed to compile din300.f, uns300.f, and dout300.f |
 | include/unsath.inc | Include file needed to compile din300.f, uns300.f, dout300.f, and bsum300.f |
