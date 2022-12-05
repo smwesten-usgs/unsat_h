@@ -21,11 +21,13 @@ The Theory/User Manual for Version 3.00 (PNNL-13249) contains two known errors:
 
 22 Feb 2001. On page A.23, the variable ALBEDO is incorrectly defined. The definition should read "soil surface albedo" 
 
-7 August 2000. Equation 4.28 (the Brooks-Corey function) has an extraneous "+" sign. The Equation should read:
+7 August 2000. Equation 4.28 (the Brooks-Corey function) has an extraneous "+" sign.
 
 Sincerely, 
 Mike Fayer
-==========
+
+-------------------------------------------------------------------------------------------
+
 The following is an unaltered copy of the readme.300 file:
 File readme.300 for UNSAT-H Version 3.00
 Mike Fayer, 29 May 2000
