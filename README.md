@@ -36,31 +36,32 @@ The latest form of the model is UNSAT-H Version 3.0. The documentation (Fayer 20
 
 UNSAT-H Version 3.0 is available on the PNNL anonymous server (ftp.pnl.gov) under directory /pub/permanent/unsath/v300. The files on the server include the FORTRAN source code, executable files compiled using Digital Visual Fortran under Windows 98, and the combined theory/user manual in *.pdf format. Some editing of the source files may be required to compile the code with other compilers or operating systems.
 
-The files on the server are:
-readme.300 - this file
-UNS_V30.pdf - Version 3.0 Theory and User Input Manual in *.pdf format
-bsum300.exe - Executable version of BSUM300 (Windows console program)
-bsum300.f - Program that summarizes multiyear simulation output
-din300.exe - Executable version of DATAINH (Windows console program)
-din300.f - The input-processing program DATAINH
-dout300.exe - Executable version of DATAOUT (Windows console program)
-dout300.f - The output-processing program DATAOUT
-hystest.inp - Example input file for hysteresis test
-init.inc - Include file needed to compile din300.f, uns300.f, and dout300.f
-my_esl.inp - Example input file for multiyear test
-n62np.inp - Example input file used to test previous versions of UNSAT-H
-pet1957.pen_u7 - Pet data for multiyear test with my_esl.inp
-pet1958.pen_u7 - Pet data for multiyear test with my_esl.inp
-pet1959.pen_u7 - Pet data for multiyear test with my_esl.inp
-pet1960.pen_u7 - Pet data for multiyear test with my_esl.inp
-rain1957.dat - Precipitation data for multiyear test with my_esl.inp
-rain1958.dat - Precipitation data for multiyear test with my_esl.inp
-rain1959.dat - Precipitation data for multiyear test with my_esl.inp
-rain1960.dat - Precipitation data for multiyear test with my_esl.inp
-sand.inp - Example input file used to test previous versions of UNSAT-H
-uns300.exe - Executable version of UNSATH (Windows console program)
-uns300.f - Main program UNSATH
-unsath.inc - Include file needed to compile din300.f, uns300.f, dout300.f, and bsum300.f
+The files in this repo include:
+| Name | Description |
+|------------------|---------------|
+| doc/UNS_V30.pdf | Version 3.0 Theory and User Input Manual in *.pdf format |
+| bin/uns300.exe | Executable version of UNSATH (Windows console program) |
+| bin/bsum300.exe | Executable version of BSUM300 (Windows console program) |
+| bin/din300.exe | Executable version of DATAINH (Windows console program) |
+| bin/dout300.exe - Executable version of DATAOUT (Windows console program) |
+| src/uns300.f - Main program UNSATH |
+| src/din300.f - The input-processing program DATAINH |
+| src/bsum300.f - Program that summarizes multiyear simulation output |
+| src/dout300.f | The output-processing program DATAOUT |
+| include/init.inc | Include file needed to compile din300.f, uns300.f, and dout300.f |
+| include/unsath.inc | Include file needed to compile din300.f, uns300.f, dout300.f, and bsum300.f |
+| test/hystest.inp | Example input file for hysteresis test |
+| test/my_esl.inp | Example input file for multiyear test |
+| test/n62np.inp | Example input file used to test previous versions of UNSAT-H |
+| test/pet1957.pen_u7 | Pet data for multiyear test with my_esl.inp |
+| test/pet1958.pen_u7 | Pet data for multiyear test with my_esl.inp |
+| test/pet1959.pen_u7 | Pet data for multiyear test with my_esl.inp |
+| test/pet1960.pen_u7 | Pet data for multiyear test with my_esl.inp |
+| test/rain1957.dat | Precipitation data for multiyear test with my_esl.inp |
+| test/rain1958.dat | Precipitation data for multiyear test with my_esl.inp |
+| test/rain1959.dat | Precipitation data for multiyear test with my_esl.inp |
+| test/rain1960.dat | Precipitation data for multiyear test with my_esl.inp |
+| test/sand.inp | Example input file used to test previous versions of UNSAT-H |
 
 If you have any questions regarding code operation, or
 suggestions for corrections or improvements, please contact me. 
